@@ -1,0 +1,16 @@
+cat <<EOF >> .gitignore
+# Ignore environment and cache
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+EOF

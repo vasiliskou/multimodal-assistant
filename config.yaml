@@ -1,0 +1,10 @@
+model_gpt: "gpt-4o-mini"
+model_claude: "claude-3-haiku-20240307"
+model_gemini: "gemini-2.0-flash-exp"
+model_deepseek: "deepseek-chat"
+
+use_openai_api: true
+
+tts_model: "tts-1"
+stt_model: "whisper-1"
+image_gen_model: "dall-e-3"
